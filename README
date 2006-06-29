@@ -1,0 +1,19 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1594
+
+A simple script to quickly show/hide lines of interest. Useful for viewing log files or other huge files in general.
+
+ Uasge:
+     zs    Show all lines containing word under cursor
+     zh    Hide all lines containing word under cursor
+
+     :SHOW word pattern ...
+           Show lines containing either word or pattern
+     
+     :HIDE word pattern ...
+           Hide lines containing either word or pattern
+
+           -- pattern can be any regular expression --
+
+  See ":h fold" for commands related to folds, e.g.,
+     zn	   Open all folds
+
